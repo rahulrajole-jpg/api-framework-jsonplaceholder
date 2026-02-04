@@ -1,0 +1,5 @@
+[2026-01-28 22:35:21,112] INFO api_framework: PATCH https://jsonplaceholder.typicode.com/posts/1 | json={'title': 'Patched Title'} | data=None
+[2026-01-28 22:35:32,507] WARNING api_framework: Attempt 1 failed: HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Read timed out. (read timeout=10)
+[2026-01-28 22:35:34,508] INFO api_framework: PATCH https://jsonplaceholder.typicode.com/posts/1 | json={'title': 'Patched Title'} | data=None
+[2026-01-28 22:35:36,398] INFO api_framework: Response: 200
+[2026-01-28 22:35:36,398] INFO api_framework: JSON Response: {'userId': 1, 'id': 1, 'title': 'Patched Title', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}

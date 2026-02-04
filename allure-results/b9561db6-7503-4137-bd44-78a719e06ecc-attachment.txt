@@ -1,0 +1,3 @@
+[2026-01-29 12:51:33,941] INFO api_framework: GET https://jsonplaceholder.typicode.com/users/7 | params=None
+[2026-01-29 12:51:34,724] INFO api_framework: Response: 200
+[2026-01-29 12:51:34,725] INFO api_framework: JSON Response: {'id': 7, 'name': 'Kurtis Weissnat', 'username': 'Elwyn.Skiles', 'email': 'Telly.Hoeger@billy.biz', 'address': {'street': 'Rex Trail', 'suite': 'Suite 280', 'city': 'Howemouth', 'zipcode': '58804-1099', 'geo': {'lat': '24.8918', 'lng': '21.8984'}}, 'phone': '210.067.6132', 'website': 'elvis.io', 'company': {'name': 'Johns Group', 'catchPhrase': 'Configurable multimedia task-force', 'bs': 'generate enterprise e-tailers'}}

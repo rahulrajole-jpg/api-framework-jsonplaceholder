@@ -1,0 +1,3 @@
+[2026-01-28 22:09:20,644] INFO api_framework: GET https://jsonplaceholder.typicode.com/posts/9 | params=None
+[2026-01-28 22:09:21,323] INFO api_framework: Response: 200
+[2026-01-28 22:09:21,323] INFO api_framework: JSON Response: {'userId': 1, 'id': 9, 'title': 'nesciunt iure omnis dolorem tempora et accusantium', 'body': 'consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas'}

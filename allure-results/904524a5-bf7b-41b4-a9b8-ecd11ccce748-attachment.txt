@@ -1,0 +1,3 @@
+[2026-02-03 11:54:02,036] INFO api_framework: DELETE https://jsonplaceholder.typicode.com/comments/99999
+[2026-02-03 11:54:02,563] INFO api_framework: Response: 200
+[2026-02-03 11:54:02,563] INFO api_framework: JSON Response: {}

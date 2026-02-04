@@ -1,0 +1,3 @@
+[2026-01-28 22:38:42,228] INFO api_framework: PUT https://jsonplaceholder.typicode.com/posts/1 | json={'userId': 1, 'title': 'New Post Title', 'body': 'This is a new post body.'} | data=None
+[2026-01-28 22:38:43,231] INFO api_framework: Response: 200
+[2026-01-28 22:38:43,232] INFO api_framework: JSON Response: {'userId': 1, 'title': 'New Post Title', 'body': 'This is a new post body.', 'id': 1}

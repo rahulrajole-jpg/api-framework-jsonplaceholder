@@ -1,0 +1,6 @@
+INFO     api_framework:base_client.py:34 POST https://jsonplaceholder.typicode.com/posts | json={'userId': 1, 'title': 'New Post Title', 'body': 'This is a new post body.'} | data=None
+INFO     api_framework:base_client.py:36 Response: 201
+INFO     api_framework:base_client.py:39 JSON Response: {'userId': 1, 'title': 'New Post Title', 'body': 'This is a new post body.', 'id': 101}
+INFO     api_framework:base_client.py:34 POST https://jsonplaceholder.typicode.com/posts | json={'userId': 2, 'title': 'Another Post Title', 'body': 'Another post body.'} | data=None
+INFO     api_framework:base_client.py:36 Response: 201
+INFO     api_framework:base_client.py:39 JSON Response: {'userId': 2, 'title': 'Another Post Title', 'body': 'Another post body.', 'id': 101}

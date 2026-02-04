@@ -1,0 +1,6 @@
+INFO     api_framework:base_client.py:34 POST https://jsonplaceholder.typicode.com/comments | json={'postId': 1, 'name': 'Test Commenter', 'email': 'test@example.com', 'body': 'This is a test comment.'} | data=None
+INFO     api_framework:base_client.py:36 Response: 201
+INFO     api_framework:base_client.py:39 JSON Response: {'postId': 1, 'name': 'Test Commenter', 'email': 'test@example.com', 'body': 'This is a test comment.', 'id': 501}
+INFO     api_framework:base_client.py:34 POST https://jsonplaceholder.typicode.com/comments | json={'postId': 2, 'name': 'Another Commenter', 'email': 'another@example.com', 'body': 'Another comment body.'} | data=None
+INFO     api_framework:base_client.py:36 Response: 201
+INFO     api_framework:base_client.py:39 JSON Response: {'postId': 2, 'name': 'Another Commenter', 'email': 'another@example.com', 'body': 'Another comment body.', 'id': 501}

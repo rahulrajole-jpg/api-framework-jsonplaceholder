@@ -1,0 +1,2 @@
+INFO     api_framework:base_client.py:15 GET https://jsonplaceholder.typicode.com/todos | params=None
+INFO     api_framework:base_client.py:17 Response: 200

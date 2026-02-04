@@ -1,0 +1,9 @@
+[2026-01-29 08:46:13,492] INFO api_framework: POST https://jsonplaceholder.typicode.com/posts | json={'userId': None, 'title': '', 'body': ''} | data=None
+[2026-01-29 08:46:14,298] INFO api_framework: Response: 201
+[2026-01-29 08:46:14,298] INFO api_framework: JSON Response: {'userId': None, 'title': '', 'body': '', 'id': 101}
+[2026-01-29 08:46:14,300] INFO api_framework: POST https://jsonplaceholder.typicode.com/posts | json={'userId': 99999, 'title': 'Invalid User Post', 'body': 'Body for invalid user.'} | data=None
+[2026-01-29 08:46:14,853] INFO api_framework: Response: 201
+[2026-01-29 08:46:14,853] INFO api_framework: JSON Response: {'userId': 99999, 'title': 'Invalid User Post', 'body': 'Body for invalid user.', 'id': 101}
+[2026-01-29 08:46:14,864] INFO api_framework: POST https://jsonplaceholder.typicode.com/posts | json={'userId': 1, 'title': None, 'body': 'No title provided.'} | data=None
+[2026-01-29 08:46:15,315] INFO api_framework: Response: 201
+[2026-01-29 08:46:15,315] INFO api_framework: JSON Response: {'userId': 1, 'title': None, 'body': 'No title provided.', 'id': 101}

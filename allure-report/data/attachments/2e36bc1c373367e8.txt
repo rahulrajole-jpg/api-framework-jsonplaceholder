@@ -1,0 +1,6 @@
+[2026-01-28 22:33:28,338] INFO api_framework: GET https://jsonplaceholder.typicode.com/users | params=None
+[2026-01-28 22:33:28,339] WARNING api_framework: Attempt 1 failed: API Down
+[2026-01-28 22:33:30,345] INFO api_framework: GET https://jsonplaceholder.typicode.com/users | params=None
+[2026-01-28 22:33:30,345] WARNING api_framework: Attempt 2 failed: API Down
+[2026-01-28 22:33:32,350] INFO api_framework: GET https://jsonplaceholder.typicode.com/users | params=None
+[2026-01-28 22:33:32,350] WARNING api_framework: Attempt 3 failed: API Down

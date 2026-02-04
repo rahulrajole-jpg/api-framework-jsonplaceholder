@@ -1,0 +1,4 @@
+base_url: "https://jsonplaceholder.typicode.com"
+timeout: 10
+retries: 3
+report_dir: "allure-results"

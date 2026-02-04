@@ -1,0 +1,2 @@
+[2026-01-24 14:04:42,624] INFO api_framework: GET https://jsonplaceholder.typicode.com/todos | params=None
+[2026-01-24 14:04:44,007] INFO api_framework: Response: 200

@@ -1,0 +1,6 @@
+INFO     api_framework:base_client.py:16 GET https://jsonplaceholder.typicode.com/users | params=None
+WARNING  api_framework:retry_decorator.py:14 Attempt 1 failed: API Down
+INFO     api_framework:base_client.py:16 GET https://jsonplaceholder.typicode.com/users | params=None
+WARNING  api_framework:retry_decorator.py:14 Attempt 2 failed: API Down
+INFO     api_framework:base_client.py:16 GET https://jsonplaceholder.typicode.com/users | params=None
+WARNING  api_framework:retry_decorator.py:14 Attempt 3 failed: API Down

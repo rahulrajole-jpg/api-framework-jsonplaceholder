@@ -1,0 +1,12 @@
+[
+  {
+    "userId": 1,
+    "title": "New Post Title",
+    "body": "This is a new post body."
+  },
+  {
+    "userId": 2,
+    "title": "Another Post Title",
+    "body": "Another post body."
+  }
+]

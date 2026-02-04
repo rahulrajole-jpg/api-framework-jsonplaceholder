@@ -1,0 +1,11 @@
+{
+  "missing_fields": {
+    "name": "No Username"
+  },
+  "invalid_email": {
+    "name": "Bad Email",
+    "username": "bademail",
+    "email": "not-an-email"
+  },
+  "invalid_id": 9999
+}

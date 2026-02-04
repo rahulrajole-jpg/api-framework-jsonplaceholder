@@ -1,0 +1,6 @@
+[2026-01-28 22:38:44,542] INFO api_framework: POST https://jsonplaceholder.typicode.com/posts | json={'userId': 1, 'title': 'New Post Title', 'body': 'This is a new post body.'} | data=None
+[2026-01-28 22:38:46,501] INFO api_framework: Response: 201
+[2026-01-28 22:38:46,502] INFO api_framework: JSON Response: {'userId': 1, 'title': 'New Post Title', 'body': 'This is a new post body.', 'id': 101}
+[2026-01-28 22:38:46,507] INFO api_framework: POST https://jsonplaceholder.typicode.com/posts | json={'userId': 2, 'title': 'Another Post Title', 'body': 'Another post body.'} | data=None
+[2026-01-28 22:38:47,003] INFO api_framework: Response: 201
+[2026-01-28 22:38:47,003] INFO api_framework: JSON Response: {'userId': 2, 'title': 'Another Post Title', 'body': 'Another post body.', 'id': 101}

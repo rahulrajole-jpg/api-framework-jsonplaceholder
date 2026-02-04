@@ -1,0 +1,3 @@
+[2026-01-28 22:20:16,115] INFO api_framework: GET https://jsonplaceholder.typicode.com/posts/4 | params=None
+[2026-01-28 22:20:16,693] INFO api_framework: Response: 200
+[2026-01-28 22:20:16,694] INFO api_framework: JSON Response: {'userId': 1, 'id': 4, 'title': 'eum et est occaecati', 'body': 'ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit'}

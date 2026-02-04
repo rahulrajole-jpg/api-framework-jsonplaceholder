@@ -1,0 +1,5 @@
+INFO     api_framework:base_client.py:16 GET https://jsonplaceholder.typicode.com/posts/6 | params=None
+WARNING  api_framework:retry_decorator.py:14 Attempt 1 failed: HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Read timed out. (read timeout=10)
+INFO     api_framework:base_client.py:16 GET https://jsonplaceholder.typicode.com/posts/6 | params=None
+INFO     api_framework:base_client.py:18 Response: 200
+INFO     api_framework:base_client.py:21 JSON Response: {'userId': 1, 'id': 6, 'title': 'dolorem eum magni eos aperiam quia', 'body': 'ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae'}

@@ -1,0 +1,16 @@
+{
+  "create": {
+    "name": "Test User",
+    "username": "testuser",
+    "email": "testuser@example.com"
+  },
+  "update": {
+    "name": "Updated Name",
+    "username": "updateduser",
+    "email": "updated@example.com"
+  },
+  "patch": {
+    "name": "Patched Name"
+  },
+  "delete_id": 1
+}

@@ -1,0 +1,3 @@
+INFO     api_framework:base_client.py:52 PUT https://jsonplaceholder.typicode.com/comments/1 | json={'postId': 1, 'name': 'Test Commenter', 'email': 'test@example.com', 'body': 'This is a test comment.'} | data=None
+INFO     api_framework:base_client.py:54 Response: 200
+INFO     api_framework:base_client.py:57 JSON Response: {'postId': 1, 'name': 'Test Commenter', 'email': 'test@example.com', 'body': 'This is a test comment.', 'id': 1}

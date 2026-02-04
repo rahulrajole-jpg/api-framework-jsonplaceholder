@@ -1,0 +1,3 @@
+[2026-01-28 22:35:18,291] INFO api_framework: PUT https://jsonplaceholder.typicode.com/comments/1 | json={'postId': 1, 'name': 'Test Commenter', 'email': 'test@example.com', 'body': 'This is a test comment.'} | data=None
+[2026-01-28 22:35:19,062] INFO api_framework: Response: 200
+[2026-01-28 22:35:19,063] INFO api_framework: JSON Response: {'postId': 1, 'name': 'Test Commenter', 'email': 'test@example.com', 'body': 'This is a test comment.', 'id': 1}

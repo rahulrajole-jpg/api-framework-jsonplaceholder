@@ -1,0 +1,6 @@
+[2026-01-29 12:51:26,464] INFO api_framework: POST https://jsonplaceholder.typicode.com/comments | json={'postId': 1, 'name': 'Test Commenter', 'email': 'test@example.com', 'body': 'This is a test comment.'} | data=None
+[2026-01-29 12:51:27,072] INFO api_framework: Response: 201
+[2026-01-29 12:51:27,073] INFO api_framework: JSON Response: {'postId': 1, 'name': 'Test Commenter', 'email': 'test@example.com', 'body': 'This is a test comment.', 'id': 501}
+[2026-01-29 12:51:27,079] INFO api_framework: POST https://jsonplaceholder.typicode.com/comments | json={'postId': 2, 'name': 'Another Commenter', 'email': 'another@example.com', 'body': 'Another comment body.'} | data=None
+[2026-01-29 12:51:27,386] INFO api_framework: Response: 201
+[2026-01-29 12:51:27,386] INFO api_framework: JSON Response: {'postId': 2, 'name': 'Another Commenter', 'email': 'another@example.com', 'body': 'Another comment body.', 'id': 501}

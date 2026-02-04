@@ -1,0 +1,17 @@
+{
+  "create": {
+    "userId": 1,
+    "title": "Test Todo",
+    "completed": false
+  },
+  "update": {
+    "userId": 1,
+    "title": "Updated Todo",
+    "completed": true
+  },
+  "patch": {
+    "completed": true
+  },
+  "delete_id": 1,
+  "invalid_id": 9999
+}

@@ -1,0 +1,9 @@
+[2026-01-28 22:20:13,343] INFO api_framework: POST https://jsonplaceholder.typicode.com/comments | json={'postId': None, 'name': '', 'email': 'not-an-email', 'body': ''} | data=None
+[2026-01-28 22:20:16,389] INFO api_framework: Response: 201
+[2026-01-28 22:20:16,391] INFO api_framework: JSON Response: {'postId': None, 'name': '', 'email': 'not-an-email', 'body': '', 'id': 501}
+[2026-01-28 22:20:16,394] INFO api_framework: POST https://jsonplaceholder.typicode.com/comments | json={'postId': 99999, 'name': 'Invalid Post Comment', 'email': 'invalid@example.com', 'body': 'Body for invalid post.'} | data=None
+[2026-01-28 22:20:17,046] INFO api_framework: Response: 201
+[2026-01-28 22:20:17,046] INFO api_framework: JSON Response: {'postId': 99999, 'name': 'Invalid Post Comment', 'email': 'invalid@example.com', 'body': 'Body for invalid post.', 'id': 501}
+[2026-01-28 22:20:17,048] INFO api_framework: POST https://jsonplaceholder.typicode.com/comments | json={'postId': 1, 'name': None, 'email': '', 'body': 'No name provided.'} | data=None
+[2026-01-28 22:20:17,577] INFO api_framework: Response: 201
+[2026-01-28 22:20:17,577] INFO api_framework: JSON Response: {'postId': 1, 'name': None, 'email': '', 'body': 'No name provided.', 'id': 501}

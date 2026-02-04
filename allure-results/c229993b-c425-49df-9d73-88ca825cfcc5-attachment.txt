@@ -1,0 +1,9 @@
+[2026-01-28 22:35:18,310] INFO api_framework: PUT https://jsonplaceholder.typicode.com/comments/99999 | json={'postId': None, 'name': '', 'email': 'not-an-email', 'body': ''} | data=None
+[2026-01-28 22:35:29,442] INFO api_framework: Response: 500
+[2026-01-28 22:35:29,442] WARNING api_framework: Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+[2026-01-28 22:35:29,443] INFO api_framework: PUT https://jsonplaceholder.typicode.com/comments/99999 | json={'postId': 99999, 'name': 'Invalid Post Comment', 'email': 'invalid@example.com', 'body': 'Body for invalid post.'} | data=None
+[2026-01-28 22:35:29,837] INFO api_framework: Response: 500
+[2026-01-28 22:35:29,837] WARNING api_framework: Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+[2026-01-28 22:35:29,837] INFO api_framework: PUT https://jsonplaceholder.typicode.com/comments/99999 | json={'postId': 1, 'name': None, 'email': '', 'body': 'No name provided.'} | data=None
+[2026-01-28 22:35:31,069] INFO api_framework: Response: 500
+[2026-01-28 22:35:31,070] WARNING api_framework: Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)

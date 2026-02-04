@@ -1,0 +1,4 @@
+[2026-01-24 14:04:42,619] INFO api_framework: GET https://jsonplaceholder.typicode.com/users | params=None
+[2026-01-24 14:04:42,986] INFO api_framework: Response: 200
+[2026-01-24 14:04:42,986] INFO api_framework: GET https://jsonplaceholder.typicode.com/albums | params=None
+[2026-01-24 14:04:44,283] INFO api_framework: Response: 200

@@ -1,0 +1,3 @@
+[2026-01-29 12:51:30,124] INFO api_framework: PATCH https://jsonplaceholder.typicode.com/posts/99999 | json={'title': None} | data=None
+[2026-01-29 12:51:30,628] INFO api_framework: Response: 200
+[2026-01-29 12:51:30,628] INFO api_framework: JSON Response: {'title': None}

@@ -1,0 +1,5 @@
+[2026-01-29 12:51:29,653] INFO api_framework: GET https://jsonplaceholder.typicode.com/posts/6 | params=None
+[2026-01-29 12:51:39,825] WARNING api_framework: Attempt 1 failed: HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Read timed out. (read timeout=10)
+[2026-01-29 12:51:41,830] INFO api_framework: GET https://jsonplaceholder.typicode.com/posts/6 | params=None
+[2026-01-29 12:51:42,621] INFO api_framework: Response: 200
+[2026-01-29 12:51:42,622] INFO api_framework: JSON Response: {'userId': 1, 'id': 6, 'title': 'dolorem eum magni eos aperiam quia', 'body': 'ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae'}

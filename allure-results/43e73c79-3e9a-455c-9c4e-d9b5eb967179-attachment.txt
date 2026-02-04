@@ -1,0 +1,3 @@
+[2026-02-03 13:17:36,267] INFO api_framework: GET https://jsonplaceholder.typicode.com/posts/3 | params=None
+[2026-02-03 13:17:36,850] INFO api_framework: Response: 200
+[2026-02-03 13:17:36,850] INFO api_framework: JSON Response: {'userId': 1, 'id': 3, 'title': 'ea molestias quasi exercitationem repellat qui ipsa sit aut', 'body': 'et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut'}

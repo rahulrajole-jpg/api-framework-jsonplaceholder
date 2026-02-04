@@ -1,0 +1,17 @@
+[
+  {
+    "userId": null,
+    "title": "",
+    "body": ""
+  },
+  {
+    "userId": 99999,
+    "title": "Invalid User Post",
+    "body": "Body for invalid user."
+  },
+  {
+    "userId": 1,
+    "title": null,
+    "body": "No title provided."
+  }
+]

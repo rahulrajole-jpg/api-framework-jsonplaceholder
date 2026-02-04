@@ -1,0 +1,9 @@
+INFO     api_framework:base_client.py:38 POST https://jsonplaceholder.typicode.com/comments | json={'postId': None, 'name': '', 'email': 'not-an-email', 'body': ''} | data=None
+INFO     api_framework:base_client.py:40 Response: 201
+INFO     api_framework:base_client.py:43 JSON Response: {'postId': None, 'name': '', 'email': 'not-an-email', 'body': '', 'id': 501}
+INFO     api_framework:base_client.py:38 POST https://jsonplaceholder.typicode.com/comments | json={'postId': 99999, 'name': 'Invalid Post Comment', 'email': 'invalid@example.com', 'body': 'Body for invalid post.'} | data=None
+INFO     api_framework:base_client.py:40 Response: 201
+INFO     api_framework:base_client.py:43 JSON Response: {'postId': 99999, 'name': 'Invalid Post Comment', 'email': 'invalid@example.com', 'body': 'Body for invalid post.', 'id': 501}
+INFO     api_framework:base_client.py:38 POST https://jsonplaceholder.typicode.com/comments | json={'postId': 1, 'name': None, 'email': '', 'body': 'No name provided.'} | data=None
+INFO     api_framework:base_client.py:40 Response: 201
+INFO     api_framework:base_client.py:43 JSON Response: {'postId': 1, 'name': None, 'email': '', 'body': 'No name provided.', 'id': 501}

@@ -1,0 +1,3 @@
+INFO     api_framework:base_client.py:74 PATCH https://jsonplaceholder.typicode.com/posts/99999 | json={'title': None} | data=None
+INFO     api_framework:base_client.py:76 Response: 200
+INFO     api_framework:base_client.py:79 JSON Response: {'title': None}

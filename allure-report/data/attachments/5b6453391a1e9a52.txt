@@ -1,0 +1,2 @@
+[2026-01-24 14:04:44,164] INFO api_framework: GET https://jsonplaceholder.typicode.com/users/abc | params=None
+[2026-01-24 14:04:45,090] INFO api_framework: Response: 404

@@ -1,0 +1,9 @@
+INFO     api_framework:base_client.py:52 PUT https://jsonplaceholder.typicode.com/comments/99999 | json={'postId': None, 'name': '', 'email': 'not-an-email', 'body': ''} | data=None
+INFO     api_framework:base_client.py:54 Response: 500
+WARNING  api_framework:base_client.py:64 Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+INFO     api_framework:base_client.py:52 PUT https://jsonplaceholder.typicode.com/comments/99999 | json={'postId': 99999, 'name': 'Invalid Post Comment', 'email': 'invalid@example.com', 'body': 'Body for invalid post.'} | data=None
+INFO     api_framework:base_client.py:54 Response: 500
+WARNING  api_framework:base_client.py:64 Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+INFO     api_framework:base_client.py:52 PUT https://jsonplaceholder.typicode.com/comments/99999 | json={'postId': 1, 'name': None, 'email': '', 'body': 'No name provided.'} | data=None
+INFO     api_framework:base_client.py:54 Response: 500
+WARNING  api_framework:base_client.py:64 Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)

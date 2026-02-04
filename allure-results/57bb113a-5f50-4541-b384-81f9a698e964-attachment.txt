@@ -1,0 +1,3 @@
+[2026-01-28 22:35:15,929] INFO api_framework: PATCH https://jsonplaceholder.typicode.com/comments/1 | json={'body': 'Patched comment body.'} | data=None
+[2026-01-28 22:35:18,219] INFO api_framework: Response: 200
+[2026-01-28 22:35:18,219] INFO api_framework: JSON Response: {'postId': 1, 'id': 1, 'name': 'id labore ex et quam laborum', 'email': 'Eliseo@gardner.biz', 'body': 'Patched comment body.'}
