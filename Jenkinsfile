@@ -23,8 +23,7 @@ pipeline {
         stage('Allure Report') {
             steps {
                 sh '/opt/homebrew/bin/allure generate allure-results --clean -o allure-report'
-                // Optionally remove the next line if running on a headless server
-                // sh '/opt/homebrew/bin/allure open allure-report &'
+                sh '/opt/homebrew/bin/allure open allure-report &'
             }
         }
     }
